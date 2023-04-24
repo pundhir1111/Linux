@@ -1,0 +1,42 @@
+    ls: Lists the contents of a directory.
+    cd: Changes the current working directory.
+    pwd: Prints the current working directory.
+    mkdir: Creates a new directory.
+    rm: Removes a file or directory.
+    cp: Copies a file from one location to another.
+    mv: Moves a file from one location to another.
+    cat: Concatenates and displays files.
+    grep: Searches for a specific string or pattern in a file or output.
+    chmod: Changes the permissions of a file or directory.
+    chown: Changes the ownership of a file or directory.
+    sudo: Executes a command with administrative privileges.
+    apt-get: Installs or updates software packages.
+    ping: Tests network connectivity by sending packets to a network host.
+    top: Displays real-time system resource usage.
+    ps: Displays information about running processes.
+    kill: Terminates a running process.
+    tar: Creates or extracts compressed archive files.
+    ssh: Connects to a remote host using the secure shell protocol.
+    scp: Copies files securely between hosts using the secure copy protocol.
+    ifconfig - display network interface configuration
+    git - a popular version control system for managing code repositories
+    tar - create and extract archive files
+    wget - download files from the web
+    curl - transfer data to or from a server using various protocols
+    scp/rsync - transfer files between servers
+    ssh-keygen - generate SSH keys for secure authentication
+    screen/tmux - multiplex terminal sessions to detach and reattach to sessions easily
+    diff - compare two files and display differences
+    find - search for files and directories based on various criteria
+    sed - stream editor for filtering and transforming text
+    awk - manipulate text and data files
+    grep - search for a specific pattern in a file
+    top/htop - display real-time system information about processes and resources
+    netstat - display network connections, routing tables, and related information
+    lsof - list open files and the processes using them
+    iptables - configure firewall rules
+    tcpdump - capture network traffic for analysis
+    ping/traceroute - test network connectivity and troubleshoot network issues
+    dig/nslookup - query DNS servers for information about domain names and IP addresses
+    crontab - schedule and automate tasks at specific times.
+
