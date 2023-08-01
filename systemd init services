@@ -1,0 +1,41 @@
+Systemd init services- 
+
+
+1.Unit- There are 4 directive are there.
+  description
+  after
+  require
+  wants
+  
+2.Service- There are 5 directives are there.
+ExecpreStart = 
+Execstart = 
+execstartpost = 
+Restart = 
+Execstop = 
+Type= 
+There are 5 type of services are there-
+1. Simple = Simple Service means that the program can be launched directly by running the ExecStart
+2. Forking = The ExecStart command launches another proccess from the current proccess, and the initde system should manage the launched proccess as service.
+3. dbus = The service is registered as deamon proccess with name.
+4. oneshot = execute only once, once finished stop it.
+5. notify = our service will notify other service to started
+
+3.Install Section- One directive are there.
+Install section specifies when does the service should be launched.
+[Install]
+WantedBy=multi-user.target 
+
+multi-user.target = indicates the service should be installed and started immediatl;y after the runlevel=3 which means once the console has been up. 
+
+
+
+
+
+
+
+
+
+
+
+
