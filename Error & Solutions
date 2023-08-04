@@ -1,1 +1,21 @@
+Error 1- Unable to write file '/home/welcome1/shell_scripting/hello.sh' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/welcome1/shell_scripting/hello.sh')
+
+Solution- Need to change the file permission
+
+sudo chown -R username path or sudo chown -R path 
+
+Error 2- 'Username' is not in the sudoers file. 
+
+Solution - 
+
+Open file
+su root 
+nano /etc/sudoers
+
+Then add the user below admin user like below syntax.
+user_name ALL=(ALL)  ALL
+
+Error 3- 
+
+
 
