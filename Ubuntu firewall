@@ -1,0 +1,18 @@
+What is firewall-
+
+
+1. Firewall software
+2. network firewall
+
+Firewall-
+
+Ubuntu firewall you can configure using the iptables but iptable are complicated so ubuntu gives an tool called ufw.
+You can manage & configure the ubuntu system firewall using ufw.
+
+
+How to see firewall status?
+sudo ufw status
+How to see enable the firewall?
+sudo ufw enable
+How to see all the roles?
+sudo ufw status verbose
